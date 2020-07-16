@@ -40,10 +40,7 @@ spoke_img_names, spoke_imgs = im_pro.load_images_from_dir('D:/2. data/iris_patte
 spot_img_names, spot_imgs = im_pro.load_images_from_dir('D:/2. data/iris_pattern/Binary/pattern_normal/spot')
 
 normal_hist_list = get_normalized_histogram(normal_imgs)
-
 pattern_hist_list = get_normalized_histogram(pattern_imgs)
-
-
 
 defect_hist_list = get_normalized_histogram(defect_imgs)
 lacuna_hist_list = get_normalized_histogram(lacuna_imgs)
