@@ -1,4 +1,4 @@
-# from CNNUtil import img_preprocessing as im_pro
+from CNNUtil import img_preprocessing as im_pro
 import cv2
 from matplotlib import pyplot as plt
 import numpy as np
